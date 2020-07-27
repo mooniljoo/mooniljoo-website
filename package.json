@@ -1,6 +1,5 @@
 {
   "name": "website",
-  "homepage": "https://mooniljoo.github.io/mooniljoo.github.io.git",
   "version": "0.1.0",
   "private": true,
   "scripts": {
