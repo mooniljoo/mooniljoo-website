@@ -13,6 +13,7 @@ export default class RootDocument extends Document {
           <meta httpEquiv="Content-type" content="text/html; charset=utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=Edge" />
           <meta name="format-detection" content="telephone=no" />
+          <meta name="description" content={desc.description} />
           <link rel="icon" href="/favicon.ico" />
           {/* OpenGraph */}
           <meta property="og:type" content={desc.type} />
