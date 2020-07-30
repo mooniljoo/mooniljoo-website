@@ -57,7 +57,7 @@ export default function Header({ pathname }) {
                 </a>
               </li>
               <li className="menuitem" role="menuitem">
-                <a className="menu__link" href="http://mooniljoo.gihub.io">
+                <a className="menu__link" href="https://mooniljoo.gihub.io">
                   <span className="menu__text">Blog</span>
                 </a>
               </li>
