@@ -16,6 +16,18 @@
       "href": "https://github.com/mooniljoo"
     },
     {
+      "show": true,
+      "title": "linkedin",
+      "src": "/images/icons/linkedin.svg",
+      "href": "https://www.linkedin.com/in/oneweek/"
+    },
+    {
+      "show": true,
+      "title": "watcha",
+      "src": "/images/icons/watcha.svg",
+      "href": "https://pedia.watcha.com/ko-KR/users/yKZx3BKb254dJ"
+    },
+    {
       "show": false,
       "title": "instagram",
       "src": "/images/icons/instagram.svg",
@@ -32,12 +44,6 @@
       "title": "behance",
       "src": "/images/icons/behance.svg",
       "href": "https://www.behance.net/moonezekiel"
-    },
-    {
-      "show": true,
-      "title": "linkedin",
-      "src": "/images/icons/linkedin.svg",
-      "href": "https://www.linkedin.com/in/oneweek/"
     },
     {
       "show": false,
