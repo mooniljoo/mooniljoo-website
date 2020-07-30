@@ -135,6 +135,8 @@ export default function About() {
       </section>
       <style jsx>{`
         .container_item.right {
+          -webkit-box-flex: 1;
+          -ms-flex: 1 1 300px;
           flex: 1 1 300px;
         }
         .container_item.right > article {
@@ -143,9 +145,13 @@ export default function About() {
         .container {
           max-width: 1024px;
           margin: 20px auto;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
         }
         .container_item {
+          -webkit-box-flex: 1;
+          -ms-flex: 1;
           flex: 1;
         }
         .pcard {
@@ -153,6 +159,7 @@ export default function About() {
           padding: 30px;
           background: #fff;
           border-radius: 10px;
+          -webkit-box-shadow: 0 0 1px #ccc;
           box-shadow: 0 0 1px #ccc;
           margin: 0 auto 50px;
         }
@@ -161,6 +168,7 @@ export default function About() {
         .p-title {
           color: #24292e;
           line-height: 1.5;
+          -o-text-overflow: ellipsis;
           text-overflow: ellipsis;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
             Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
@@ -191,6 +199,9 @@ export default function About() {
         @media all and (max-width: 1024px) {
           .container {
             margin: 0 5%;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
           }
         }

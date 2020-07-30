@@ -129,7 +129,11 @@ export default function Category() {
         }
         .row {
           margin: 20px 0;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
           justify-content: space-between;
         }
         .categoryList__item,
@@ -161,9 +165,14 @@ export default function Category() {
         }
 
         .card-container {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
         }
         .card-container.rowlist {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
         }
         .card-container.rowlist .fig_img {
@@ -171,7 +180,10 @@ export default function Category() {
         }
 
         .card-container.tile {
+          -ms-flex-wrap: wrap;
           flex-wrap: wrap;
+          -webkit-box-pack: start;
+          -ms-flex-pack: start;
           justify-content: flex-start;
         }
 
@@ -181,17 +193,22 @@ export default function Category() {
         }
         .card-container.tile .fig_img {
           max-width: initial;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
           justify-content: center;
         }
 
         .card {
           background: #fff;
+          -webkit-box-shadow: 0 0 0 1px #ccc;
           box-shadow: 0 0 0 1px #ccc;
           border-radius: 10px;
           margin-bottom: 10px;
           padding: 10px;
         }
         .card > .card__link {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
           padding: 10px;
         }
@@ -199,17 +216,27 @@ export default function Category() {
           display: block;
         }
         .card__link > figure {
+          -webkit-box-flex: 1;
+          -ms-flex: 1;
           flex: 1;
         }
         .fig_img {
           max-width: 150px;
           margin: 0;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -ms-flex-item-align: center;
           align-self: center;
           height: 100%;
         }
         .fig_txt {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
         }
         a:hover {
