@@ -57,7 +57,7 @@ export default function Header({ pathname }) {
                 </a>
               </li>
               <li className="menuitem" role="menuitem">
-                <a className="menu__link" href="https://mooniljoo.gihub.io">
+                <a className="menu__link" href="https://mooniljoo.github.io/">
                   <span className="menu__text">Blog</span>
                 </a>
               </li>
@@ -70,10 +70,16 @@ export default function Header({ pathname }) {
         .logo__link {
           width: 200px;
         }
-        .header {
+        .header::after {
+          content: "";
           background-image: url(/images/bg_waves.jpg);
-          background-position-y: 50%;
-          border-bottom: 1px solid #eee;
+          width: 100%;
+          height: 50vh;
+          display: flex;
+          opacity: 0.5;
+          position: absolute;
+          z-index: -1;
+          top: 0;
         }
         .menu__link:hover .menu__text,
         .menu__link.selected .menu__text {
