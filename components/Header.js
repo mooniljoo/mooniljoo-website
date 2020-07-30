@@ -74,7 +74,7 @@ export default function Header({ pathname }) {
           content: "";
           background-image: url(/images/bg_waves.jpg);
           width: 100%;
-          height: 50vh;
+          height: 200px;
           display: flex;
           opacity: 0.5;
           position: absolute;
