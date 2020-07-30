@@ -56,6 +56,11 @@ export default function Header({ pathname }) {
                   <span className="menu__text">Resume</span>
                 </a>
               </li>
+              <li className="menuitem" role="menuitem">
+                <a className="menu__link" href="http://mooniljoo.gihub.io">
+                  <span className="menu__text">Blog</span>
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
