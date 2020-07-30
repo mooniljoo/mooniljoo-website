@@ -14,7 +14,7 @@ export default class RootDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=Edge" />
           <meta name="format-detection" content="telephone=no" />
           <meta name="description" content={desc.description} />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/favicon.png" />
           {/* OpenGraph */}
           <meta property="og:type" content={desc.type} />
           <meta property="og:locale" content={desc.locale} />
