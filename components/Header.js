@@ -70,11 +70,15 @@ export default function Header({ pathname }) {
         .logo__link {
           width: 200px;
         }
+        .header {
+          height: 200px;
+          position: relative;
+        }
         .header::after {
           content: "";
           background-image: url(/images/bg_waves.jpg);
           width: 100%;
-          height: 200px;
+          height: 100%;
           display: flex;
           opacity: 0.5;
           position: absolute;
@@ -130,7 +134,7 @@ export default function Header({ pathname }) {
         }
         .snsList > a {
           display: inline-block;
-          margin: 0 10px 10px;
+          margin: 0 5px 5px;
           font-size: 16px;
           color: #46494a;
           text-decoration: none;

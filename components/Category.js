@@ -136,6 +136,7 @@ export default function Category() {
         .viewmodes__item {
           cursor: pointer;
           font-weight: 500;
+          vertical-align: sub;
         }
         .categoryList__item {
           margin-right: 20px;
@@ -223,6 +224,17 @@ export default function Category() {
           }
           .card-container.tile .card {
             width: 49%;
+          }
+        }
+        @media all and (max-width: 480px) {
+          .categoryList__item {
+            margin-right: 10px;
+          }
+          .viewmode {
+            margin-left: 0;
+          }
+          .row {
+            margin: 10px 0;
           }
         }
       `}</style>
