@@ -177,6 +177,7 @@ export default function Category() {
         }
         .card-container.rowlist .fig_img {
           margin-right: 10px;
+          max-width:100px;
         }
 
         .card-container.tile {
@@ -204,7 +205,6 @@ export default function Category() {
           box-shadow: 0 0 0 1px #ccc;
           border-radius: 10px;
           margin-bottom: 10px;
-          padding: 10px;
         }
         .card > .card__link {
           display: -webkit-box;
@@ -221,14 +221,12 @@ export default function Category() {
           flex: 1;
         }
         .fig_img {
-          max-width: 150px;
           margin: 0;
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
           -ms-flex-item-align: center;
           align-self: center;
-          height: 100%;
         }
         .fig_txt {
           -webkit-box-orient: vertical;
@@ -238,6 +236,9 @@ export default function Category() {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
+        }
+        .fig_txt .spec__item{
+          display:inline-block;
         }
         a:hover {
           text-decoration: initial;
