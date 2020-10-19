@@ -178,6 +178,7 @@ export default function Category() {
         .card-container.rowlist .fig_img {
           margin-right: 10px;
           max-width:100px;
+          height:75px;
         }
 
         .card-container.tile {
