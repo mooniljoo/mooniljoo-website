@@ -62,7 +62,7 @@
     {
       "category": "software",
       "type": "software",
-      "title": "Traiding Bot for Bitmex",
+      "title": "Trading Bot for Bitmex",
       "desc": "포지션 설정 후 자동거래 및 알림",
       "href": "https://github.com/mooniljoo/trading_bot_bitmex",
       "src": "/images/terminal.svg",
