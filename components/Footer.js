@@ -11,6 +11,7 @@ export default function Footer() {
 
       <style jsx>{`
         .c-layout__row {
+          text-align:center;
           padding: 10px 0;
           }
           @media screen and (max-width: 480px) {
