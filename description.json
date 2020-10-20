@@ -62,6 +62,17 @@
     {
       "category": "software",
       "type": "software",
+      "title": "Traiding Bot for Bitmex",
+      "desc": "포지션 설정 후 자동거래 및 알림",
+      "href": "https://github.com/mooniljoo/trading_bot_bitmex",
+      "src": "/images/terminal.svg",
+      "date": "20.07.14 ~ present",
+      "term": "",
+      "spec": ["Python", "Websocket", "Keras", "Pandas", "Openpyxl"]
+    },
+    {
+      "category": "software",
+      "type": "software",
       "title": "Update Tester",
       "desc": "자동업데이트 체크 및 설치 로직 프로토타입",
       "href": "https://github.com/mooniljoo/update_tester",
