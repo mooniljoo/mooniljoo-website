@@ -198,6 +198,10 @@ export default function Category() {
           -webkit-box-pack: center;
           -ms-flex-pack: center;
           justify-content: center;
+          height: 120px;
+        }
+        .card-container.tile .fig_txt{
+          padding: 0.5em 1em; 
         }
 
         .card {
