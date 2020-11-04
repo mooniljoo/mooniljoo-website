@@ -63,7 +63,7 @@
       "category": "software",
       "type": "software",
       "title": "Trading Bot for Bitmex",
-      "desc": "포지션 설정 후 자동거래 및 알림",
+      "desc": "포지션 설정 후 자동거래 및 알림 프로토타입",
       "href": "https://github.com/mooniljoo/trading_bot_bitmex",
       "src": "/images/terminal.svg",
       "date": "20.07.14 ~ present",
@@ -85,12 +85,23 @@
       "category": "software",
       "type": "software",
       "title": "QR Scanner",
-      "desc": "OpenCV 활용 QR스캔 프로그램",
+      "desc": "OpenCV 활용 QR스캔 프로토타입",
       "href": "https://github.com/mooniljoo/qr_scanner",
       "src": "/images/terminal.svg",
       "date": "20.02.01 ~ 20.02.07",
       "term": "",
       "spec": ["Python", "OpenCV", "PyQt5"]
+    },
+    {
+      "category": "software",
+      "type": "library",
+      "title": "Convert SQL",
+      "desc": "SQL문이 출력되도록 각 언어의 메소드 구현",
+      "href": "https://github.com/mooniljoo/lib_Generator_Query",
+      "src": "/images/terminal.svg",
+      "date": "19.05.20 ~ 19.05.25",
+      "term": "",
+      "spec": ["Python", "javascript", "C#", "SQL"]
     },
     {
       "category": "front-end",
@@ -104,15 +115,15 @@
       "spec": ["React.js", "Redux"]
     },
     {
-      "category": "publishing",
-      "type": "website",
-      "title": "anifan",
-      "desc": "반응형, 크로스브라우징",
-      "href": "http://www.anifan.io/",
+      "category": "front-end",
+      "type": "API module",
+      "title": "Get Balance ETH Coin",
+      "desc": "INFURA API를 통한 ETH코인 지갑 조회 프로토타입",
+      "href": "https://github.com/mooniljoo/Nodejs_get_ETH_balance",
       "src": "/images/browser.svg",
-      "date": "18.09.17 ~ 18.10.12",
-      "term": "1 month",
-      "spec": ["HTML5", "CSS3", "jQuery"]
+      "date": "19.09.02 ~ 19.09.18",
+      "term": "",
+      "spec": ["Nodejs", "socketIO", "web3js", "InfuraAPI"]
     },
     {
       "category": "publishing",
@@ -146,6 +157,17 @@
       "date": "19.04.08 ~ 19.05.22",
       "term": "2 months",
       "spec": ["HTML5", "CSS3", "javascript"]
+    },
+    {
+      "category": "publishing",
+      "type": "website",
+      "title": "anifan",
+      "desc": "반응형, 크로스브라우징",
+      "href": "http://www.anifan.io/",
+      "src": "/images/browser.svg",
+      "date": "18.09.17 ~ 18.10.12",
+      "term": "1 month",
+      "spec": ["HTML5", "CSS3", "jQuery"]
     },
     {
       "category": "publishing",
