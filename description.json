@@ -66,7 +66,7 @@
       "desc": "웹 사이트 정보 수집 프로그램 프로토타입",
       "href": "https://github.com/mooniljoo/auction_website_scraper",
       "src": "/images/terminal.svg",
-      "date": "21.04.12 ~ 21.04.23",
+      "date": "21.04.12 ~ present",
       "term": "",
       "spec": ["Electron", "Puppeteer"]
     },
@@ -75,7 +75,7 @@
       "type": "software",
       "title": "Trading Bot for Bitmex",
       "desc": "포지션 설정 후 자동거래 및 알림 프로토타입",
-      "href": "https://github.com/mooniljoo/trading_bot_bitmex",
+      "href": "https://github.com/mooniljoo/crypto_trading_bot_strategy",
       "src": "/images/terminal.svg",
       "date": "20.07.14 ~ present",
       "term": "",
