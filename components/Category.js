@@ -9,10 +9,10 @@ export default function Category() {
     setCate("");
   };
   const onFront = () => {
-    setCate("publishing");
+    setCate(["front-end", "publishing"]);
   };
   const onBack = () => {
-    setCate("software");
+    setCate(["back-end", "software", "business logic"]);
   };
 
   const viewRowlist = () => {
@@ -34,14 +34,16 @@ export default function Category() {
           </span>
           <span
             className={`categoryList__item ${
-              cate == "publishing" && "selected"
+              cate.includes("front-end") && "selected"
             }`}
             onClick={onFront}
           >
             FRONT-END
           </span>
           <span
-            className={`categoryList__item ${cate == "software" && "selected"}`}
+            className={`categoryList__item ${
+              cate.includes("back-end") && "selected"
+            }`}
             onClick={onBack}
           >
             BACK-END
@@ -82,7 +84,14 @@ export default function Category() {
       </div>
       <section className={`card-container ${viewmode}`}>
         {desc.workList
-          .filter((e) => e.category.includes(cate))
+          .filter((e) => {
+            if (cate) {
+              return cate.includes(e.category);
+            } else {
+              return e.category;
+            }
+            //e.category.includes(cate)
+          })
           .map((e, idx) => (
             <article className="card" key={idx}>
               <a
@@ -177,8 +186,8 @@ export default function Category() {
         }
         .card-container.rowlist .fig_img {
           margin-right: 10px;
-          max-width:100px;
-          height:75px;
+          max-width: 100px;
+          height: 75px;
         }
 
         .card-container.tile {
@@ -200,8 +209,8 @@ export default function Category() {
           justify-content: center;
           height: 120px;
         }
-        .card-container.tile .fig_txt{
-          padding: 0.5em 1em; 
+        .card-container.tile .fig_txt {
+          padding: 0.5em 1em;
         }
 
         .card {
@@ -242,8 +251,8 @@ export default function Category() {
           display: -ms-flexbox;
           display: flex;
         }
-        .fig_txt .spec__item{
-          display:inline-block;
+        .fig_txt .spec__item {
+          display: inline-block;
         }
         a:hover {
           text-decoration: initial;
