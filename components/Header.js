@@ -51,11 +51,11 @@ export default function Header({ pathname }) {
                   </Link>
                 </li>
               ))}
-              <li className="menuitem" role="menuitem">
+              {/* <li className="menuitem" role="menuitem">
                 <a className="menu__link" href="/documents/resume.pdf">
                   <span className="menu__text">Resume</span>
                 </a>
-              </li>
+              </li> */}
               <li className="menuitem" role="menuitem">
                 <a className="menu__link" href="https://mooniljoo.tistory.com">
                   <span className="menu__text">Blog</span>
